@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banniere {
+  padding: 100%;
+  background-image: url(https://focusonbelgium.be/sites/default/files/styles/big_article_image/public/grand_place.jpg?itok=FLCqlklX);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
