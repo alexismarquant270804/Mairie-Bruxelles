@@ -1,0 +1,46 @@
+header {
+  margin: 0px;
+  color: white;
+  background-color: #161616;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header img {
+  width: 100px;
+}
+header .bandeauaccueil {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+header span {
+  font-size: 40px;
+}
+header span.ville {
+  font-size: 30px;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+}/*# sourceMappingURL=main.css.map */

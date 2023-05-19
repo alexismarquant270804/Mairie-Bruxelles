@@ -1,0 +1,33 @@
+header{
+    margin: 0px;
+    color: white;
+    background-color: #161616;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    img{
+        width: 100px;
+    }
+    .bandeauaccueil{
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: right;
+    }
+    span{
+        font-size: 40px;
+    }
+    span.ville{
+        font-size: 30px;
+
+    }
+
+}
