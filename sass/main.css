@@ -29,10 +29,35 @@ header span {
 header span.ville {
   font-size: 30px;
 }
+header h1 {
+  padding: 150px;
+  background-image: url("../../images/grand_place.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 15em;
+  margin: 0%;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+footer {
+  background-color: #161616;
+  text-align: center;
+  padding-top: 25px;
+  word-spacing: 15px;
+}
+footer #mentions {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  word-spacing: 0;
+}
 
 body {
   margin: 0px;
-  background-color: black;
 }
 
 body {
@@ -40,7 +65,35 @@ body {
   background-color: black;
 }
 
+main {
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 50px;
+}
+main h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+main img {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+main .evenements {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+main a {
+  text-decoration: none;
+}
+main a:hover {
+  text-decoration: underline;
+}
+main span {
+  font-style: italic;
+}
+
 body {
   margin: 0px;
-  background-color: black;
 }/*# sourceMappingURL=main.css.map */

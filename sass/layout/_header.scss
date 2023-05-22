@@ -1,18 +1,24 @@
-header{
+header {
     margin: 0px;
     color: white;
     background-color: #161616;
-    a{
+    
+    
+    
+    a {
         text-decoration: none;
         color: white;
     }
-    a:hover{
+
+    a:hover {
         text-decoration: underline;
     }
-    img{
+
+    img {
         width: 100px;
     }
-    .bandeauaccueil{
+
+    .bandeauaccueil {
         margin-left: 25px;
         margin-right: 25px;
         font-size: 20px;
@@ -22,12 +28,29 @@ header{
         align-items: center;
         text-align: right;
     }
-    span{
+
+    span {
         font-size: 40px;
     }
-    span.ville{
+
+    span.ville {
         font-size: 30px;
 
     }
 
+    h1 {
+        padding: 150px;
+        background-image: url('../../images/grand_place.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding-bottom: 15em;
+        margin: 0%;
+        text-align: center;
+        font-size: 50px;
+        color: black;
+    }
+
 }
+

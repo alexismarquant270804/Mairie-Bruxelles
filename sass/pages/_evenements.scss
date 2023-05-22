@@ -1,4 +1,42 @@
 body{
     margin: 0px;
     background-color: black;
+    
+}
+
+main{
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 50px;
+
+    h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    img{
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .evenements{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    span{
+        font-style: italic;
+    }
 }
