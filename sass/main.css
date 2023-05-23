@@ -63,6 +63,42 @@ footer #mentions {
 
 body {
   margin: 0px;
+<<<<<<< HEAD
+  background-color: black;
+  color: white;
+}
+
+main {
+  margin: 50px;
+  padding-bottom: 1000px;
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+}
+
+.flex1 {
+  background-color: grey;
+  display: grid;
+  height: auto;
+  max-width: 100%;
+}
+
+.flex2 {
+  text-align: center;
+}
+
+.blockactu, .blockevenements, .blockencours {
+  background-color: white;
+=======
+>>>>>>> 986c6fdb75579ba198dbfdf1ce2019fd35bf0c32
 }
 
 body {
