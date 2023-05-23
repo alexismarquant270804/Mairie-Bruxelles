@@ -1,7 +1,12 @@
+body {
+  font-family: "Zilla Slab", serif;
+}
+
 header {
   margin: 0px;
   color: white;
   background-color: #161616;
+  font-family: "Zilla Slab", serif;
 }
 header a {
   text-decoration: none;
