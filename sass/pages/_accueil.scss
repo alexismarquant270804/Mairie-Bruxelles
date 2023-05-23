@@ -1,13 +1,12 @@
-body{
-    margin: 0px;
-    background-color: black;
-    color: white;
-}
-
 main {
     margin: 50px;
     padding-bottom: 1000px;
     background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -18,24 +17,30 @@ h1 {
 
 h2 {
     color: black;
+    background-color: white;
+    padding: 20px;
+    margin: 0%;
 }
 
 .container {
-
-}
-
-.flex1 {
-    background-color: grey;
-    display: grid;
-    height: auto;
-    max-width: 100%;
-}
-
-.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
+
+    img {
+        margin-right: 5%;
+    }
+    
 }
 
-.blockactu, .blockevenements, .blockencours {
-    background-color: white;
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: 30%;  
+    background-color: rgb(208, 207, 207);
+}
 
+.grid1 {
+    padding: 8%;
 }
