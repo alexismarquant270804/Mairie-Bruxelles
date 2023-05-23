@@ -1,10 +1,7 @@
 body {
-<<<<<<< HEAD
   margin: 0px;
   background-color: black;
   color: white;
-=======
->>>>>>> ea5a918e162286488ee80416c4bf3a3a40b28181
   font-family: "Zilla Slab", serif;
 }
 
@@ -12,6 +9,7 @@ header {
   margin: 0px;
   color: white;
   background-color: #161616;
+  font-family: "Zilla Slab", serif;
   font-family: "Zilla Slab", serif;
 }
 header a {
@@ -50,7 +48,7 @@ header h1 {
   padding-bottom: 15em;
   margin: 0%;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   color: black;
 }
 
@@ -74,19 +72,23 @@ main {
   color: black;
 }
 
-a {
+#ici {
   text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 h1 {
   color: black;
   font-size: 50px;
   text-align: center;
+  margin-top: 1.5em;
+  padding-bottom: 1em;
 }
 
 h2 {
   color: black;
-  background-color: white;
+  text-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
   padding: 20px;
   margin: 0%;
 }
@@ -105,11 +107,22 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 30%;
-  background-color: rgb(208, 207, 207);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
 }
 
 .grid1 {
   padding: 8%;
+}
+
+#course, #hallyday, #new {
+  height: 350px;
+  width: 450px;
+  padding-left: 50px;
+}
+
+.container2 {
+  margin: 8em;
 }
 
 body {
@@ -142,7 +155,7 @@ main a {
 main a:hover {
   text-decoration: underline;
 }
-main span {
+main .date {
   font-style: italic;
 }
 
