@@ -17,7 +17,6 @@ main {
     }
 
     .h2 {
-    padding: 20px;
     margin: 0%;
     font-size: 25px;
     }
@@ -50,6 +49,7 @@ main {
     .grid1 {
         font-size: 20px;
         padding: 1em;
+        text-align: center;
     }
 
     #course, #hallyday {
@@ -75,10 +75,24 @@ main {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
     margin: 5em;
-    
-    width: 90%;
+    padding-bottom: 5em;
+
+    .grid2 {
+        font-size: 20px;
+        padding: 1em;
+        text-align: center;
+    }
+
+    #marche {
+        margin: 0;
+        padding: 0;
+        height: 350px;
+        width:  450px;
+        }
 }
 
+
+//MEDIA QUERIES
 @media screen and (max-width: 1200px) {
     .container, .container2 {
         flex-direction: column;
