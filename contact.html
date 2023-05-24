@@ -4,7 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+
+        <header>
+      <nav>
+        <div class="bandeauaccueil">
+          <div>
+            <a href="accueil.html"><img src="images/bruxelles-logo (1).png"alt="Logo de la ville de Bruxelles"/></a>
+          </div>
+          <div><a href="accueil.html">Accueil</a></div>
+          <div><a href="#">Démarches</a></div>
+          <div><a href="evenements.html">Evenements</a></div>
+          <div><a href="#">Tourisme</a></div>
+          <div><a href="contact.html">Contact</a></div>
+          <div><span class="ville">Ville de</span> <br><span>Bruxelles</span></div>
+        </div>
+      </nav>
+
+      <h1> Contact </h1>
+  </header>
+
+    <body>
+
+      <h1>Contactez nous</h1>
+      <div class="contacteznous">
+      <form action="/envoyer" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+        <br>
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <br>	
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required cols="21px"></textarea>
+        <br>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  
+    <footer>
+      <a href="https://www.facebook.com/BXLvilledebruxelles/?locale=fr_FR"><img src="images/facebook (1).png" alt="Logo Facebook"></a>
+      <a href="https://twitter.com/villebruxelles?lang=fr"><img src="images/twitter (2).png" alt="Logo Facebook"></a>
+      <a href="https://open.spotify.com/user/bxl_online?si=3e0a3215512b477d&nd=1"><img src="images/spotify.png" alt="Logo Facebook"></a>
+      <a href="https://www.instagram.com/bxl_online/"><img src="images/instagram (4).png" alt="Logo Facebook"></a>
+      
+      <div id="mentions">
+        Mentions légales - Nous contactez - Accessibilité - Presse  
+      </div>
+    </footer>
+
+  </body>
 </html>

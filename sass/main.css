@@ -186,4 +186,52 @@ main .date {
 
 body {
   margin: 0px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding-top: 25px;
+  word-spacing: 15px;
+}
+
+h1 {
+  color: white;
+  padding-left: 587px;
+}
+
+.text {
+  color: white;
+}
+
+.contacteznous {
+  padding-left: 583px;
+}
+
+.contacteznous label {
+  display: inline-block;
+  justify-content: center;
+  width: 80px;
+  margin-top: 10px;
+}
+
+label {
+  color: white;
+}
+
+textarea {
+  border: 189px;
+}
+
+.socials {
+  margin-left: 50px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#message {
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */
