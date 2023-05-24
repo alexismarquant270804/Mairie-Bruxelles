@@ -85,7 +85,6 @@ main .titre {
   padding-bottom: 1em;
 }
 main .h2 {
-  padding: 20px;
   margin: 0%;
   font-size: 25px;
 }
@@ -112,6 +111,7 @@ main .h1 {
 .container .grid1 {
   font-size: 20px;
   padding: 1em;
+  text-align: center;
 }
 .container #course, .container #hallyday {
   margin: 0;
@@ -132,7 +132,18 @@ main .h1 {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
   margin: 5em;
-  width: 90%;
+  padding-bottom: 5em;
+}
+.container2 .grid2 {
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+.container2 #marche {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 450px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -148,11 +159,6 @@ main .h1 {
     font-size: 1.3em;
   }
 }
-body {
-  margin: 0px;
-  background-color: black;
-}
-
 main {
   background-color: white;
   margin-left: 25px;
