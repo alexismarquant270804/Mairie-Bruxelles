@@ -1,62 +1,96 @@
 main {
     margin: 50px;
-    padding-bottom: 1000px;
     background-color: white;
     color: black;
-}
-
-#ici {
+    
+        #ici {
     text-decoration: none;
     color: black;
     font-weight: bold;
-}
-
-h1 {
-    color: black;
-    font-size: 50px;
+    } 
+    
+        h1 {
+    font-size: 65px;
     text-align: center;
     margin-top: 1.5em;
     padding-bottom: 1em;
-}
+    }
 
-h2 {
-    color: black;
-    text-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+        h2 {
     padding: 20px;
     margin: 0%;
-    
+    font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: justify;
+        padding: 50px;
+    }
 }
+
+
+
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-
-    img {
-        margin-right: 5%;
-    }
     
-}
-
-.grid {
+    .grid {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 30%;  
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
-}
+    }
 
-.grid1 {
-    padding: 8%;
-}
+    .grid1 {
+        font-size: 20px;
+        padding: 1em;
+    }
 
-#course, #hallyday, #new {
-    height: 350px;
-    width:  450px;
-    padding-left: 50px;
-}
+    #course, #hallyday {
+        margin: 0;
+        padding: 0;
+        height: 350px;
+        width:  450px;
+        }
+    
+    #new {
+        margin-top: 48px;
+        padding: 0;
+        height: 500px;
+        }
+    }
+
+
 
 .container2 {
-    margin: 8em
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+    margin: 5em;
+    padding: 3em;
+    width: 90%;
+}
+
+@media screen and (max-width: 1200px) {
+    .container, .container2 {
+        flex-direction: column;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    img {
+        display: none;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
 }

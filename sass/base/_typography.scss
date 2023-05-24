@@ -3,4 +3,8 @@ body {
     background-color: black;
     color: white;
     font-family: 'Zilla Slab', serif;
+
+    h1, h2 {
+        text-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+    }
 }
