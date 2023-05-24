@@ -78,21 +78,21 @@ main #ici {
   color: black;
   font-weight: bold;
 }
-main h1 {
-  font-size: 65px;
+main .titre {
+  font-size: 35px;
   text-align: center;
   margin-top: 1.5em;
   padding-bottom: 1em;
 }
-main h2 {
+main .h2 {
   padding: 20px;
   margin: 0%;
-  font-size: 40px;
+  font-size: 25px;
 }
-main p {
-  font-size: 15px;
+main .h1 {
+  font-size: 35px;
   text-align: justify;
-  padding: 50px;
+  padding: 10px;
 }
 
 .container {
@@ -132,7 +132,6 @@ main p {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
   margin: 5em;
-  padding: 3em;
   width: 90%;
 }
 
@@ -175,9 +174,11 @@ main .evenements {
 }
 main a {
   text-decoration: none;
+  color: black;
 }
 main a:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 main .date {
   font-style: italic;

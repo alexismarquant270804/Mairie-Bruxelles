@@ -9,23 +9,23 @@ main {
     font-weight: bold;
     } 
     
-        h1 {
-    font-size: 65px;
+    .titre {
+    font-size: 35px;
     text-align: center;
     margin-top: 1.5em;
     padding-bottom: 1em;
     }
 
-        h2 {
+    .h2 {
     padding: 20px;
     margin: 0%;
-    font-size: 40px;
+    font-size: 25px;
     }
 
-    p {
-        font-size: 15px;
-        text-align: justify;
-        padding: 50px;
+    .h1 {
+    font-size: 35px;
+    text-align: justify;
+    padding: 10px;
     }
 }
 
@@ -75,7 +75,7 @@ main {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
     margin: 5em;
-    padding: 3em;
+    
     width: 90%;
 }
 
