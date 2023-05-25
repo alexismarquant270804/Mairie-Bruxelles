@@ -96,7 +96,7 @@ main .titre {
   margin-top: 1.5em;
   padding-bottom: 1em;
 }
-main .h2 {
+main h2 {
   margin: 0%;
   font-size: 25px;
 }
@@ -158,7 +158,7 @@ main .h1 {
   width: 450px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1470px) {
   .container, .container2 {
     flex-direction: column;
     align-items: center;
