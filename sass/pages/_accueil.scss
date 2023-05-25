@@ -1,42 +1,115 @@
-body{
-    margin: 0px;
-<<<<<<< HEAD
-    background-color: black;
-    color: white;
-}
-
 main {
     margin: 50px;
-    padding-bottom: 1000px;
     background-color: white;
-}
-
-h1 {
     color: black;
-    font-size: 50px;
+    
+    #ici {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    } 
+    
+    .titre {
+    font-size: 35px;
     text-align: center;
+    margin-top: 1.5em;
+    padding-bottom: 1em;
+    }
+
+    h2 {
+    margin: 0%;
+    font-size: 25px;
+    }
+
+    .h1 {
+    font-size: 35px;
+    text-align: justify;
+    padding: 10px;
+    }
 }
 
-h2 {
-    color: black;
-}
 
 .container {
-
-}
-
-.flex1 {
-    background-color: grey;
-    display: grid;
-    height: auto;
-    max-width: 100%;
-}
-
-.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
+    
+    .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;  
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+    }
+
+    .grid1 {
+        font-size: 20px;
+        padding: 1em;
+        text-align: center;
+    }
+
+    #course, #hallyday {
+        margin: 0;
+        padding: 0;
+        height: 350px;
+        width:  450px;
+        }
+    
+    #new {
+        margin-top: 48px;
+        padding: 0;
+        height: 500px;
+        }
+    }
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+    margin: 5em;
+    padding-bottom: 5em;
+
+    .grid2 {
+        font-size: 20px;
+        padding: 1em;
+        text-align: center;
+    }
+
+    #marche {
+        margin: 0;
+        padding: 0;
+        height: 350px;
+        width:  450px;
+        }
 }
 
-.blockactu, .blockevenements, .blockencours {
-    background-color: white;
 
+//MEDIA QUERIES
+@media screen and (max-width: 1470px) {
+    .container, .container2 {
+        flex-direction: column;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    img {
+        display: none;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    // h1 {
+    //     max-width: 100%;
+    //     width: auto;
+    //     max-height: 100%;
+    //     height: 50px;
+    // }
 }

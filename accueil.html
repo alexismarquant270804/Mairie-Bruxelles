@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sass/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <title> ACCUEIL - Ville de Bruxelles </title>
   </head>
 
   <body>
@@ -17,11 +20,11 @@
       <nav>
         <div class="bandeauaccueil">
           <div>
-            <a href="accueil.html"><img src="images/bruxelles-logo (1).png"alt="Logo de la ville de Bruxelles"/></a>
+            <a href="accueil.html"> <img src="images/bruxelles-logo(1).png" alt="Logo de la ville de Bruxelles"></a>
           </div>
           <div><a href="accueil.html">Accueil</a></div>
           <div><a href="#">Démarches</a></div>
-          <div><a href="evenements.html">Evenements</a></div>
+          <div><a href="evenements.html">Evenement</a></div>
           <div><a href="#">Tourisme</a></div>
           <div><a href="contact.html">Contact</a></div>
           <div><span class="ville">Ville de</span> <br><span>Bruxelles</span></div>
@@ -33,27 +36,72 @@
   </header>
 
   <main>
+    <div class="h1"> <h1>A la UNE</h1> </div>
+    
     <div class="container">
-      <h1> A la UNE </h1>
 
-      <div class="flex1">
+      
+        <div class="grid"> 
           <h2> Actu </h2>
-            <div class="blockactu"></div>
+          <div class="grid1"> 20 km de Bruxelles et circulation <br> 
+            - <br>
+            le 28 mai </div>
+          <img src="./images/20_km_Bruxelles_0.jpg" alt="" id="course"> <br>
+          <p class="accueil"> Le dimanche 28 mai 2023, Bruxelles accueille les coureurs des 
+            "20 km de Bruxelles" (départ à partir de 10h). 
+            Certains axes routiers seront totalement soustraits à la circulation. </p>
+            <br>
+            <a href="https://www.bruxelles.be/20-km-de-bruxelles-et-circulation-le-28-mai-2023"><button> EN SAVOIR PLUS </button></a>
+        </div>
 
-          <h2> Prochains Evenements</h2>
-            <div class="blockevenements"></div>
-
-          <h2> Newspaper </h2>
-            <div class="blocknewspaper"></div>
+     
+      <div class="grid">  
+        <h2> Prochains Evenements </h2>
+       <div class="grid1"> Johnny Hallyday l'Exposition <br>
+        - <br>
+        Jusqu'au 15/06/2023 </div>
+      <img src="./images/hallyday.jpg" alt="" id="hallyday"> <br>
+      <p class="accueil"> Du 20 décembre 2022 au 15 juin 2023 à Brussels Expo. 
+        Johnny Hallyday l'Exposition offrira au public 
+        une découverte inédite de l'œuvre et de la vie de Johnny Hallyday. </p>
+        <br>
+        <a href="https://www.johnnyhallydaylexposition.com/"><button> ACCEDER </button></a>
+    </div>
+      
+      
+      <div class="grid"> 
+        <h2> Newspaper </h2>
+        <div class="grid1"> Télécharger notre newspaper <br>
+        <a href="https://www.calameo.com/read/0010576450c4dcd4269c4" target="_blank" rel="noopener noreferrer" id="ici"> ICI</a>
       </div>
+      <img src="./images/newspaper.png" alt="" id="new"> <br> </div>
     </div>
 
-        <div class="flex2">
-          <h2> Evenements en cours </h2>
-            <div class="blocencours"></div>
+
+    <div class="container2">
+      <h2> Evenements en cours </h2>
+          <div class="grid2"> Fête des marchés <br>
+            - <br>
+            23 mai </div>
+          <img src="./images/fetedesmarches.png" alt="" id="marche">
+          <br>
+          <a href="./evenements.html"></a><button> DETAILS DE L'EVENEMENT </button></a>
         </div>
-    
+          <br>
+          
   </main>
 
-  </body>
+
+  <footer>
+    <a href="https://www.facebook.com/BXLvilledebruxelles/?locale=fr_FR"><img src="images/facebook(1).png" alt="Logo Facebook"></a>
+    <a href="https://twitter.com/villebruxelles?lang=fr"><img src="images/twitter(2).png" alt="Logo Facebook"></a>
+    <a href="https://open.spotify.com/user/bxl_online?si=3e0a3215512b477d&nd=1"><img src="images/spotify.png" alt="Logo Facebook"></a>
+    <a href="https://www.instagram.com/bxl_online/"><img src="images/instagram(4).png" alt="Logo Facebook"></a>
+    
+    <div id="mentions">
+      Mentions légales -  <a href="contact.html" id="acontact">Nous contactez</a> - Accessibilité - Presse  
+    </div>
+  </footer>
+
+</body>
 </html>

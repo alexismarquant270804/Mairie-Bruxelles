@@ -1,11 +1,26 @@
 body {
+  margin: 0px;
+  background-color: black;
+  color: white;
   font-family: "Zilla Slab", serif;
+}
+body h1, body h2 {
+  text-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
 }
 
 header {
   margin: 0px;
   color: white;
   background-color: #161616;
+  font-family: "Zilla Slab", serif;
   font-family: "Zilla Slab", serif;
 }
 header a {
@@ -44,7 +59,7 @@ header h1 {
   padding-bottom: 15em;
   margin: 0%;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   color: black;
 }
 
@@ -60,52 +75,102 @@ footer #mentions {
   padding-bottom: 25px;
   word-spacing: 0;
 }
-
-body {
-  margin: 0px;
-<<<<<<< HEAD
-  background-color: black;
+footer #acontact {
+  text-decoration: none;
   color: white;
 }
 
 main {
   margin: 50px;
-  padding-bottom: 1000px;
   background-color: white;
-}
-
-h1 {
-  color: black;
-  font-size: 50px;
-  text-align: center;
-}
-
-h2 {
   color: black;
 }
-
-.flex1 {
-  background-color: grey;
-  display: grid;
-  height: auto;
-  max-width: 100%;
+main #ici {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+main .titre {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 1.5em;
+  padding-bottom: 1em;
+}
+main h2 {
+  margin: 0%;
+  font-size: 25px;
+}
+main .h1 {
+  font-size: 35px;
+  text-align: justify;
+  padding: 10px;
 }
 
-.flex2 {
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   text-align: center;
 }
-
-.blockactu, .blockevenements, .blockencours {
+.container .grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
   background-color: white;
-=======
->>>>>>> 986c6fdb75579ba198dbfdf1ce2019fd35bf0c32
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+}
+.container .grid1 {
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+.container #course, .container #hallyday {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 450px;
+}
+.container #new {
+  margin-top: 48px;
+  padding: 0;
+  height: 500px;
 }
 
-body {
-  margin: 0px;
-  background-color: black;
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
+  margin: 5em;
+  padding-bottom: 5em;
+}
+.container2 .grid2 {
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+.container2 #marche {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 450px;
 }
 
+@media screen and (max-width: 1470px) {
+  .container, .container2 {
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+  }
+  img {
+    display: none;
+  }
+  p {
+    font-size: 1.3em;
+  }
+}
 main {
   background-color: white;
   margin-left: 25px;
@@ -123,18 +188,69 @@ main img {
 main .evenements {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  text-align: justify;
   gap: 20px;
 }
 main a {
   text-decoration: none;
+  color: black;
 }
 main a:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
-main span {
+main .date {
   font-style: italic;
+}
+main p {
+  margin: 0px;
 }
 
 body {
   margin: 0px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding-top: 25px;
+  word-spacing: 15px;
+}
+
+.contacth1 {
+  color: white;
+  padding-left: 587px;
+}
+
+.text {
+  color: white;
+}
+
+.contacteznous {
+  padding-left: 583px;
+}
+
+.contacteznous label {
+  display: inline-block;
+  justify-content: center;
+  width: 80px;
+  margin-top: 10px;
+}
+
+label {
+  color: white;
+}
+
+textarea {
+  border: 189px;
+}
+
+.socials {
+  margin-left: 50px;
+  color: white;
+}
+
+#message {
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */
