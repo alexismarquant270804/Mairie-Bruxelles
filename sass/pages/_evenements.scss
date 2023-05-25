@@ -40,3 +40,16 @@ main{
         font-style: italic;
     }
 }
+
+@media (max-width: 1100px){
+    img{
+        width: 200px;
+        display: none;
+    }
+    .evenements{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+}

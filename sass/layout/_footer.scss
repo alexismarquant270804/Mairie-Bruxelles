@@ -10,4 +10,15 @@ footer{
         padding-bottom: 25px;
         word-spacing: 0;
     }
+    
+    .reseau{
+        width: 24px;
+    }
+}
+
+@media (max-width: 100px){
+    .reseau{
+        width: 20px;
+    }
+
 }
