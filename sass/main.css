@@ -16,11 +16,16 @@ button {
   box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 8px;
 }
 
+#boutonenvoi {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
 header {
   margin: 0px;
   color: white;
   background-color: #161616;
-  font-family: "Zilla Slab", serif;
   font-family: "Zilla Slab", serif;
 }
 header a {
@@ -62,7 +67,18 @@ header h1 {
   font-size: 30px;
   color: black;
 }
+header .logobxl {
+  width: 90px;
+}
 
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 5px;
+  }
+  header {
+    width: 10px;
+  }
+}
 footer {
   background-color: #161616;
   text-align: center;
@@ -75,6 +91,9 @@ footer #mentions {
   padding-bottom: 25px;
   word-spacing: 0;
 }
+footer .reseau {
+  width: 30px;
+}
 footer #acontact {
   text-decoration: none;
   color: white;
@@ -82,7 +101,7 @@ footer #acontact {
 
 main {
   margin: 50px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 main #ici {
@@ -203,24 +222,26 @@ main a:hover {
 main .date {
   font-style: italic;
 }
-main p {
-  margin: 0px;
-}
 
+@media (max-width: 1100px) {
+  img {
+    width: 200px;
+    display: none;
+  }
+  .evenements {
+    display: none;
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
 body {
   margin: 0px;
 }
 
-footer {
-  background-color: black;
-  text-align: center;
-  padding-top: 25px;
-  word-spacing: 15px;
-}
-
 .contacth1 {
   color: white;
-  padding-left: 587px;
+  padding-left: 215px;
 }
 
 .text {
@@ -228,7 +249,8 @@ footer {
 }
 
 .contacteznous {
-  padding-left: 583px;
+  padding-left: 200px;
+  margin-bottom: 50px;
 }
 
 .contacteznous label {
@@ -253,4 +275,21 @@ textarea {
 
 #message {
   margin-top: 10px;
+}
+
+.form {
+  padding-left: 500px;
+}
+
+input {
+  width: 170px;
+}
+
+textarea {
+  width: 255px;
+  height: 60px;
+}
+
+.messfooter {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */

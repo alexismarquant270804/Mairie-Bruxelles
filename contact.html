@@ -34,7 +34,7 @@
   </header>
 
     <body>
-
+      <div class="form">
       <div class="contacth1"><h1>Contactez nous</h1></div>
       <div class="contacteznous">
       <form action="/envoyer" method="post">
@@ -48,20 +48,25 @@
         <input type="email" id="email" name="email" required>
         <br>
         <label for="message">Message:</label>
-        <textarea id="message" name="message" required cols="21px"></textarea>
+        <div class="messfooter">
+        <textarea id="message" name="message" required ></textarea>
+      </div>
         <br>
-        <button type="submit">Envoyer</button>
+        <div class="boutonenvoi">
+        <button type="submit" id="boutonenvoi">Envoyer</button>
+      </div>
       </form>
     </div>
+  </div>
   
     <footer>
-      <a href="https://www.facebook.com/BXLvilledebruxelles/?locale=fr_FR"><img src="images/facebook(1).png" alt="Logo Facebook"></a>
-      <a href="https://twitter.com/villebruxelles?lang=fr"><img src="images/twitter(2).png" alt="Logo Facebook"></a>
-      <a href="https://open.spotify.com/user/bxl_online?si=3e0a3215512b477d&nd=1"><img src="images/spotify.png" alt="Logo Facebook"></a>
-      <a href="https://www.instagram.com/bxl_online/"><img src="images/instagram(4).png" alt="Logo Facebook"></a>
+      <a href="https://www.facebook.com/BXLvilledebruxelles/?locale=fr_FR"><img src="images/facebook(1).png" alt="Logo Facebook" class="reseau"></a>
+      <a href="https://twitter.com/villebruxelles?lang=fr"><img src="images/twitter(2).png" alt="Logo Twitter" class="reseau"></a>
+      <a href="https://open.spotify.com/user/bxl_online?si=3e0a3215512b477d&nd=1"><img src="images/spotify.png" alt="Logo Spotify" class="reseau"></a>
+      <a href="https://www.instagram.com/bxl_online/"><img src="images/instagram(4).png" alt="Logo Instagram" class="reseau"></a>
       
       <div id="mentions">
-        Mentions légales -  <a href="contact.html" id="acontact">Nous contactez</a> - Accessibilité - Presse  
+        MENTIONS LÉGALES -  <a href="contact.html" id="acontact">NOUS CONTACTEZ</a> - ACCESSIBILITÉ - PRESSE   
       </div>
     </footer>
 

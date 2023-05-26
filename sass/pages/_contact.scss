@@ -1,18 +1,11 @@
 body{
     margin: 0px;
-    // background-color: black;
 }
 
-footer{
-    background-color: black;
-    text-align: center;
-    padding-top: 25px;
-    word-spacing: 15px;
-    }
 
 .contacth1{
 color: white;
-padding-left: 587px;
+padding-left: 215px;
 }
 
 .text{
@@ -20,8 +13,8 @@ color: white;
 }
 
 .contacteznous{
-    padding-left: 583px;
-    
+    padding-left: 500px; 
+    margin-bottom: 50px;
 }
 
 .contacteznous label {
@@ -47,4 +40,21 @@ color: white;
 
 #message{
     margin-top: 10px;
+}
+
+.form{
+    padding-left: 500px;
+}
+
+input{
+    width: 170px;
+}
+
+textarea{
+    width: 255px;
+    height: 60px;
+}
+
+.messfooter{
+    margin-bottom: 10px;
 }
