@@ -13,9 +13,39 @@ header {
         text-decoration: underline;
     }
 
+    .edit-custom-search-block { 
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color-scheme: light dark;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    margin-left: 22em;
+    font-family: inherit;
+    line-height: inherit;
+    background-color: white;
+    color: #999999;
+    width: 40%;
+    min-height: 50px;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-position: 99% center;
+    background-image: url(/sites/all/themes/bxl/images/throbber-active.gif);
+    background-position-y: -18px;
+    border: 1px solid #c8c8c8;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px 10px;
+    padding-right: 150px;
+    padding-left: 65px;
+    height: 100%;
+    text-transform: lowercase;
+    }
+
     img {
         width: 100px;
-        
     }
 
     .bandeauaccueil {
@@ -40,30 +70,62 @@ header {
 
     h1 {
         padding: 150px;
-        background-image: url('../../images/grand_place.jpg');
+        background-image: url('../../images/pexels-petar-starčević-2587789.jpg');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
-        padding-bottom: 15em;
+        padding-bottom: 20em;
         margin: 0%;
         text-align: center;
         font-size: 30px;
         color: black;
     }
+    
     .logobxl{
         width: 90px;
     }
-
-
- }
-
-@media (max-width: 1100px){
-    h1{
-        font-size: 5px;
-    }
-    header{
-        width: 10px;
-    }
 }
 
+.header_burger {
+    display: none;
+}
+
+.header_burger svg {
+    stroke: black;
+    width: 80px;
+    height: 50px;
+}
+
+
+ //MEDIA QUERIES
+ @media screen and (max-width: 390px) {
+    nav .bandeauaccueil {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: calc(100vh - 60px);
+        margin: 0;
+        background-color: #1b1b1b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    img {
+        display: flex;
+        width: 50;
+       background-color: #c8c8c8;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
