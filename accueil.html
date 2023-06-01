@@ -15,34 +15,46 @@
   </head>
 
   <body>
-<!--  -->
-    <header>
-      <nav>
-        <div class="bandeauaccueil">
-          <div><a href="accueil.html"> <img src="images/bruxelles-logo(1).png" alt="Logo de la ville de Bruxelles"></a></div>
+    <div class="overlay_menu_mobile" onclick="closeMenuMobile()"></div>
 
-          <div><a href="accueil.html">Accueil</a></div>
-          <div><a href="#">Démarches</a></div>
-          <div><a href="evenements.html">Evenement</a></div>
-          <div><a href="#">Tourisme</a></div>
-          <div><a href="contact.html">Contact</a></div>
-          <div><span class="ville">Ville de</span> <br><span>Bruxelles</span></div>
-        </div>
-      </nav>
+<header>
+  <nav class="header_nav">
+    <div class="header_nav_close">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
 
-      <div class =header_burger>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-          stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+    <div class="header_nav_menu">
+      <div>
+        <a href="accueil.html">
+          <img src="images/bruxelles-logo(1).png" alt="Logo de la ville de Bruxelles">
+        </a>
       </div>
 
-      <h1>
-        <input placeholder="Rechercher" title="Rechercher" class="edit-custom-search-block form-text form-autocomplete" onkeypress="jQuery('#edit-custom-search-block-id-shadow').val('');" type="text" id="edit-custom-search-block-id" name="search" value="" size="60" maxlength="30" autocomplete="OFF" aria-autocomplete="list">
-      </h1>  
-  </header>
+      <div><a href="accueil.html">Accueil</a></div>
+      <div><a href="#">Démarches</a></div>
+      <div><a href="evenements.html">Evenement</a></div>
+      <div><a href="#">Tourisme</a></div>
+      <div><a href="contact.html">Contact</a></div>
+      <div class="ville_bxl"><span class="ville">Ville de</span><br><span>Bruxelles</span></div>
+    </div>
+  </nav>
+
+  <div class="header_burger">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+  </div>
+
+  <h1>
+    <input placeholder="Rechercher" title="Rechercher" class="barre_recherche" onkeypress="jQuery('#edit-custom-search-block-id-shadow').val('');" type="text" id="edit-custom-search-block-id" name="search" value="" size="60" maxlength="30" autocomplete="OFF" aria-autocomplete="list">
+  </h1>
+</header>
+
 
   <main>
-    <div class="h1"> <h1>A la UNE</h1> </div>
+    <div class="h1"> A la UNE </div>
     
     <div class="container">
 
@@ -109,5 +121,6 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

@@ -35,19 +35,17 @@ main{
 
     .date {
         font-style: italic;
+        font-size: 15px;
     }
-
 }
 
-@media (max-width: 1100px){
-    img{
-        width: 200px;
+@media screen and (max-width: 500px) {
+    .img_evenement {
         display: none;
     }
-    .evenements{
-        display: none;
-    }
-    h1{
-        font-size: 25px;
+
+    .h2p {
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }

@@ -12,36 +12,48 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="bandeauaccueil">
-          <div>
-            <a href="accueil.html"><img src="images/bruxelles-logo(1).png" alt="Logo de la ville de Bruxelles" class="logobxl"/></a>
-          </div>
-          <div><a href="accueil.html"> Accueil </a></div>
-          <div><a href="#">Démarches</a></div>
-          <div><a href="evenements.html"> Evenement </a></div>
-          <div><a href="#">Tourisme</a></div>
-          <div><a href="contact.html"> Contact </a></div>
-          <div>
-            <span class="ville">Ville de</span><br><span>Bruxelles</span>
-          </div>
+      <nav class="header_nav">
+        <div class="header_nav_close">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
         </div>
-        
+    
+        <div class="header_nav_menu">
+          <div>
+            <a href="accueil.html">
+              <img src="images/bruxelles-logo(1).png" alt="Logo de la ville de Bruxelles">
+            </a>
+          </div>
+    
+          <div><a href="accueil.html">Accueil</a></div>
+          <div><a href="#">Démarches</a></div>
+          <div><a href="evenements.html">Evenement</a></div>
+          <div><a href="#">Tourisme</a></div>
+          <div><a href="contact.html">Contact</a></div>
+          <div class="ville_bxl"><span class="ville">Ville de</span><br><span>Bruxelles</span></div>
+        </div>
       </nav>
-
+    
+      <div class="header_burger">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </div>
+    
       <h1>
-        <input placeholder="Rechercher" title="Rechercher" class="edit-custom-search-block form-text form-autocomplete" onkeypress="jQuery('#edit-custom-search-block-id-shadow').val('');" type="text" id="edit-custom-search-block-id" name="search" value="" size="60" maxlength="30" autocomplete="OFF" aria-autocomplete="list">
-      </h1> 
+        <input placeholder="Rechercher" title="Rechercher" class="barre_recherche" onkeypress="jQuery('#edit-custom-search-block-id-shadow').val('');" type="text" id="edit-custom-search-block-id" name="search" value="" size="60" maxlength="30" autocomplete="OFF" aria-autocomplete="list">
+      </h1>
     </header>
     <main>
 
-      <h1>La Fête des Marchés 2023</h1>
+      <div class="h1">La Fête des Marchés 2023</div>
 
       <div class="evenements">
 
-      <div><img src="images/fetedesmarches.png" alt="Fêtes des Marchés" /></div>
+      <div class="img_evenement"><img src="images/fetedesmarches.png" alt="Fêtes des Marchés" /></div>
 
-      <div><h2> Détails </h2>
+      <div class="h2p"><h2> Détails </h2>
         <br>
         <p>
           Du 23 au 28 Mai 2023, la ville de Bruxelles organisera la "Fêtes des
@@ -82,5 +94,7 @@
         MENTIONS LÉGALES -  <a href="contact.html" id="acontact">NOUS CONTACTEZ</a> - ACCESSIBILITÉ - PRESSE   
       </div>
     </footer>
+
+      <script src="script.js"></script>
   </body>
 </html>
